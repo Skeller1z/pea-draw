@@ -24,7 +24,7 @@ const LoginPage = () => {
         // navigate('MapComponents');
       } else if (user.role === 'Tester') {
         setError('');
-        navigate('main');
+        navigate('/MainMap');
         console.log("Success Tester")
       } else {
         setError('');
